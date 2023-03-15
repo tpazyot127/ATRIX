@@ -1,0 +1,40 @@
+@import @/styles/helpers
+
+.header
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: 30
+    padding: 72px 0
+    transition: all .2s
+    +w
+        padding: 40px 0
+    +m
+        padding: 24px 0
+    &.visible
+        padding: 32px 0
+        background: rgba($n9, .95)
+        +w
+            padding: 24px 0
+        +m
+            padding: 20px 0
+    &.open.visible
+        background: transparent
+
+.container
+    display: flex
+    align-items: center
+
+.logo
+    position: relative
+    z-index: 45
+    margin-right: auto
+
+.button
+    position: relative
+    z-index: 40
+    margin-left: 24px
+    +m
+        display: none
+
