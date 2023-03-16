@@ -1,5 +1,9 @@
 export const socials = [
     {
+        icon: "github",
+        href: "https://ui8.net/",
+    },
+    {
         icon: "discord",
         href: "https://ui8.net/",
     },
@@ -7,16 +11,16 @@ export const socials = [
         icon: "twitter",
         href: "https://twitter.com/ui8",
     },
-    {
-        icon: "instagram",
-        href: "https://www.instagram.com/ui8net/",
-    },
+    // {
+    //     icon: "instagram",
+    //     href: "https://www.instagram.com/ui8net/",
+    // },
     {
         icon: "telegram",
         href: "https://ui8.net/",
     },
-    {
-        icon: "facebook",
-        href: "https://www.facebook.com/ui8.net/",
-    },
+    // {
+    //     icon: "facebook",
+    //     href: "https://www.facebook.com/ui8.net/",
+    // },
 ];

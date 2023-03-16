@@ -18,7 +18,7 @@ const Main = ({ scrollToRef }: MainProps) => (
                     Onix delivers tamper-proof inputs, outputs, and computations
                     to support advanced smart contracts on any blockchain
                 </div>
-                <Scroll
+                {/* <Scroll
                     className={styles.scroll}
                     title="SCROLL TO EXPLORE"
                     onScroll={() =>
@@ -27,7 +27,7 @@ const Main = ({ scrollToRef }: MainProps) => (
                         })
                     }
                     row
-                />
+                /> */}
             </div>
         </div>
         <div className={styles.images}>

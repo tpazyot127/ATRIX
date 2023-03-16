@@ -49,7 +49,7 @@ const Main = ({ scrollToRef }: MainProps) => (
                     </Parallax>
                 ))}
             </div>
-            <Scroll
+            {/* <Scroll
                 className={styles.scroll}
                 title="SCROLL TO EXPLORE"
                 onScroll={() =>
@@ -57,7 +57,7 @@ const Main = ({ scrollToRef }: MainProps) => (
                         behavior: "smooth",
                     })
                 }
-            />
+            /> */}
         </div>
     </div>
 );

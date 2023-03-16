@@ -38,3 +38,17 @@
     +m
         display: none
 
+.menu
+    display: flex
+    +t
+        display: none
+
+.link
+    +baseB
+    color: $n1
+    transition: color .2s
+    &:hover,
+    &.active
+        color: $c1
+    &:not(:last-child)
+        margin-right: 48px

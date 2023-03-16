@@ -4,7 +4,7 @@ import cn from "classnames";
 import styles from "./Solutions.module.sass";
 import Card from "@/components/Card";
 import Image from "@/components/Image";
-
+import { APP_NAME } from "@/utils/commom";
 import { solutions, images } from "@/constants/solutions";
 
 type SolutionsProps = {};
@@ -22,7 +22,7 @@ const Solutions = ({}: SolutionsProps) => {
                         Scaling solutions, amplified.
                     </div>
                     <div className={styles.info}>
-                        PRODUCT_NAME &apos;s complete suite of blockchain-scaling
+                        {APP_NAME} &apos;s complete suite of blockchain-scaling
                         solutions.
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const Solutions = ({}: SolutionsProps) => {
                                 />
                             </div>
                             <div className={cn("h3", styles.subtitle)}>
-                                {item.title}
+                                {APP_NAME}
                             </div>
                             <div className={styles.content}>{item.content}</div>
                             <div
