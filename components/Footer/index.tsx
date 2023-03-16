@@ -13,7 +13,7 @@ type FooterProps = {};
 const Footer = ({}: FooterProps) => (
     <footer className={styles.footer}>
         <div className={cn("container-wide", styles.container)}>
-            <div className={styles.row}>
+            {/* <div className={styles.row}>
                 <Logo className={styles.logo} />
                 <div className={styles.menu}>
                     {footerNavigation.map((link, index) =>
@@ -39,7 +39,7 @@ const Footer = ({}: FooterProps) => (
                         )
                     )}
                 </div>
-            </div>
+            </div> */}
             <div className={styles.row}>
                 <div className={styles.copyright}>
                     © 2022 Onix Systems. All rights reserved.

@@ -10,7 +10,7 @@ import Faq from "./Faq";
 import Reviews from "@/components/Reviews";
 import JoinCommunity from "@/components/JoinCommunity";
 
-import { reviews } from "@/mocks/reviews";
+// import { reviews } from "@/mocks/reviews";
 
 const TechnologyPage = () => {
     const scrollToRef = useRef(null);
@@ -19,12 +19,12 @@ const TechnologyPage = () => {
         <Layout>
             <Main scrollToRef={scrollToRef} />
             <Details scrollToRef={scrollToRef} />
-            <Development />
+            <Development /> 
             <Community />
             <AboutUs />
             <Posts />
             <Faq />
-            <Reviews reviews={reviews} />
+            {/* <Reviews reviews={reviews} /> */}
             <JoinCommunity title="Download our whitepaper" />
         </Layout>
     );

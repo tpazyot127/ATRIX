@@ -5,10 +5,10 @@ import Details from "./Details";
 import Testimonial from "./Testimonial";
 import Team from "./Team";
 import Values from "./Values";
-import Reviews from "@/components/Reviews";
+// import Reviews from "@/components/Reviews";
 import JoinCommunity from "@/components/JoinCommunity";
 
-import { reviews } from "@/mocks/reviews";
+// import { reviews } from "@/mocks/reviews";
 
 const AboutUsPage = () => {
     const scrollToRef = useRef(null);
@@ -20,7 +20,7 @@ const AboutUsPage = () => {
             <Testimonial />
             <Team />
             <Values />
-            <Reviews reviews={reviews} />
+            {/* <Reviews reviews={reviews} /> */}
             <JoinCommunity title="Download our whitepaper" />
         </Layout>
     );

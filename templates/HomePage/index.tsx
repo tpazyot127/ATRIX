@@ -10,7 +10,7 @@ import Reviews from "@/components/Reviews";
 import JoinCommunity from "@/components/JoinCommunity";
 
 import { posts } from "@/mocks/posts";
-import { reviews } from "@/mocks/reviews";
+// import { reviews } from "@/mocks/reviews";
 
 const HomePage = () => {
     const scrollToRef = useRef(null);
@@ -20,7 +20,7 @@ const HomePage = () => {
             <Main scrollToRef={scrollToRef} />
             {/* <Development scrollToRef={scrollToRef} /> */}
             {/* <AboutUs /> */}
-            <Statistics />
+            {/* <Statistics /> */}
             <Solutions />
             {/* <Posts
                 className="section"
@@ -28,7 +28,7 @@ const HomePage = () => {
                 info="Stay current on the latest Onix project developments, news, and content, updated daily."
                 posts={posts}
             /> */}
-            <Reviews reviews={reviews} />
+            {/* <Reviews reviews={reviews} /> */}
             <JoinCommunity title="Want to get involved?" />
         </Layout>
     );

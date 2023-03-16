@@ -26,12 +26,19 @@
 .title
     margin-bottom: 20px
 
+.infoHeader
+    padding-top: 70px
+    +body1
+
 .info
     +body1
 
 .scroll
     position: relative
     z-index: 3
+
+.icon
+    margin-bottom: 35px
 
 .images
     position: absolute
@@ -48,7 +55,32 @@
     +m
         top: 300px
         width: 810px
+.list
+    display: flex
+    margin: 30px -50px 0
+    justify-content: center
+    +m
+        display: block
+        margin: 0
 
+.card
+    flex: 0 0 calc(33.333% - 40px)
+    width: calc(33.333% - 40px)
+    margin: 40px 20px 0
+    +t
+        flex: 0 0 calc(50% - 40px)
+        width: calc(50% - 40px)
+    +m
+        width: 100%
+        margin: 0
+        &:not(:last-child)
+            margin-bottom: 40px
+
+.subtitle
+    margin-bottom: 10px
+
+.content
+    margin-bottom: 20px
 .image
     &:nth-child(1)
         position: relative

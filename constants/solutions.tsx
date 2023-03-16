@@ -10,7 +10,7 @@ export const solutions = [
     {
         title: "PRODUCT_NAME ZK EVM",
         content:
-            "PRODUCT_NAME zkEVM is the leading zero knowledge scaling solution that’s fully equivalent with the Ethereum Virtual Machine: all existing smart contracts, developer tools, and wallets work seamlessly..",
+            "TEST zkEVM is the leading zero knowledge scaling solution that’s fully equivalent with the Ethereum Virtual Machine: all existing smart contracts, developer tools, and wallets work seamlessly..",
         icon: "/images/icon-2.svg",
         status: "Devnet",
         color: "#89EB5B",

@@ -8,21 +8,28 @@ export const headerNavigation = [
     //     url: "/about-us",
     // },
     {
+        title: "Technology",
+        url: "/technology",
+        external: true,
+
+    },
+    {
         title: "Community",
         url: "https://ui8.net/",
         external: true,
     },
     {
-        title: "Blog",
-        url: "/blog",
+        title: "Eco System",
+        url: "/ecoSystem",
+        external: true,
+
     },
+   
     {
-        title: "Technology",
-        url: "/technology",
-    },
-    {
-        title: "Careers",
-        url: "/careers",
+        title: "Explore",
+        url: "/explore",
+        external: true,
+
     },
 ];
 
