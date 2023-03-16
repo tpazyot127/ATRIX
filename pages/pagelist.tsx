@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
     return (
+        <div></div>
         // <div style={{ padding: 40 }}>
         //     <Link href="/">
         //         <a style={{ color: "#fff" }}>Home page</a>
