@@ -46,7 +46,7 @@ const Solutions = ({}: SolutionsProps) => {
                                 />
                             </div>
                             <div className={cn("h3", styles.subtitle)}>
-                                {APP_NAME}
+                                {item.title}
                             </div>
                             <div className={styles.content}>{item.content}</div>
                             <div

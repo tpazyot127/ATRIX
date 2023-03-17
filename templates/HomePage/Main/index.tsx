@@ -23,9 +23,8 @@ const Main = ({ scrollToRef }: MainProps) => (
   <div className={cn("section", styles.section)}>
     <div className={cn("container", styles.container)}>
       <div className={styles.head}>
-        <div className={styles.stage}>INTRODUCING {APP_NAME}</div>
         <div className={cn("h2", styles.title)}>
-          Community-owned API&nbsp;of blockchains.
+          Layer 1 blockchain platform for AI and web3
         </div>
         <div className={styles.infoHeader}>
           {APP_NAME} Using proof of stake algorithm and scaling solution ZKP
