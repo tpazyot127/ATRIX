@@ -10,14 +10,14 @@ export const solutions = [
     {
         title: "PRODUCT_NAME ZK EVM",
         content:
-            "TEST zkEVM is the leading zero knowledge scaling solution that’s fully equivalent with the Ethereum Virtual Machine: all existing smart contracts, developer tools, and wallets work seamlessly..",
+            "ATRIX zkEVM is the leading zero knowledge scaling solution that’s fully equivalent with the Ethereum Virtual Machine: all existing smart contracts, developer tools, and wallets work seamlessly..",
         icon: "/images/icon-2.svg",
         status: "Devnet",
         color: "#89EB5B",
         delay: 200,
     },
     // {
-    //     title: "Onix Shard",
+    //     title: "ATRIX Shard",
     //     content:
     //         "Bring value to gamers by letting them take their loot to another game or into the real world.",
     //     icon: "/images/icon-3.svg",
@@ -26,7 +26,7 @@ export const solutions = [
     //     delay: 400,
     // },
     // {
-    //     title: "Onix Lancer",
+    //     title: "ATRIX Lancer",
     //     content:
     //         "Cryptographic proofs to connect highly accurate and available data/APIs to any smart contract.",
     //     icon: "/images/icon-4.svg",
@@ -34,7 +34,7 @@ export const solutions = [
     //     color: "#EBB15B",
     // },
     // {
-    //     title: "Onix Echo",
+    //     title: "ATRIX Echo",
     //     content:
     //         "Empower your community to organize and allocate resources to its members. ",
     //     icon: "/images/icon-5.svg",
@@ -43,7 +43,7 @@ export const solutions = [
     //     delay: 200,
     // },
     // {
-    //     title: "Onix Epoc",
+    //     title: "ATRIX Epoc",
     //     content:
     //         "Protect dApps from insolvency by auditing the reserves of tokens used as collateral.",
     //     icon: "/images/icon-6.svg",

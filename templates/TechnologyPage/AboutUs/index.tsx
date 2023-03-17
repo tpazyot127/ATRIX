@@ -18,7 +18,7 @@ const AboutUs = ({}: AboutUsProps) => (
                         Stay up to date on everything
                     </div>
                     <div className={styles.info}>
-                        Stay current on the latest Onix project developments,
+                        Stay current on the latest ATRIX project developments,
                         news, and content, updated daily.
                     </div>
                     <div className={styles.list}>

@@ -24,7 +24,7 @@ const Main = ({ scrollToRef }: MainProps) => (
                     Built by developers, for developers.
                 </div>
                 <div className={styles.info}>
-                    Onix delivers tamper-proof inputs, outputs, and computations
+                    ATRIX delivers tamper-proof inputs, outputs, and computations
                     to support advanced smart contracts on any blockchain
                 </div>
             </div>

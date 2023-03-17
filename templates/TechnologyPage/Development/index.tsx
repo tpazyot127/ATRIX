@@ -20,10 +20,10 @@ const Development = ({}: DevelopmentProps) => (
         <div className={cn("container", styles.container)}>
             <div className={styles.head}>
                 <h2 className={cn("h2", styles.title)}>
-                    Onix makes blockchain development accessible for everyone.
+                    ATRIX makes blockchain development accessible for everyone.
                 </h2>
                 <div className={styles.info}>
-                    Onix&apos;s complete suite of blockchain-scaling solutions.
+                    ATRIX&apos;s complete suite of blockchain-scaling solutions.
                 </div>
             </div>
             <div className={styles.list}>

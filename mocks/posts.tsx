@@ -1,6 +1,6 @@
 export const posts = [
     {
-        title: "Everything Onix weekly report",
+        title: "Everything ATRIX weekly report",
         date: "08/11/2022",
         image: "/images/post-pic-1.jpg",
         status: "UPDATES",

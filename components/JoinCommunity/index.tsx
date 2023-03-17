@@ -2,7 +2,7 @@ import { Parallax } from "react-scroll-parallax";
 import cn from "classnames";
 import styles from "./JoinCommunity.module.sass";
 import Image from "@/components/Image";
-
+import { APP_NAME } from "@/utils/commom";
 const images = [
     "/images/figures/figure-1.png",
     "/images/figures/figure-2.png",
@@ -28,7 +28,7 @@ const JoinCommunity = ({ title }: JoinCommunityProps) => (
                         target="_blank"
                         rel="noreferrer"
                     >
-                        how to build on Onix
+                        how to build on {APP_NAME}
                     </a>
                     .
                 </div>

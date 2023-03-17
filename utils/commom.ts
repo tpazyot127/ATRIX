@@ -1,1 +1,1 @@
-export const APP_NAME = 'TEST'
+export const APP_NAME = 'ATRIX'

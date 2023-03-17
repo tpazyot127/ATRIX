@@ -8,21 +8,21 @@ import { hexToRgbA } from "@/utils/index";
 
 const list = [
     {
-        title: "Everything Onix weekly report",
+        title: "Everything ATRIX weekly report",
         status: "UPDATES",
         date: "08/11/2022",
         color: "#EB5BE5",
         url: "/blog/article",
     },
     {
-        title: "Everything Onix weekly report",
+        title: "Everything ATRIX weekly report",
         status: "UPDATES",
         date: "08/11/2022",
         color: "#6F5BEB",
         url: "/blog/article",
     },
     {
-        title: "Everything Onix weekly report",
+        title: "Everything ATRIX weekly report",
         status: "NEW RELEASE",
         date: "08/11/2022",
         color: "#89EB5B",
@@ -37,10 +37,10 @@ const Posts = ({}: PostsProps) => (
         <div className={cn("container", styles.container)}>
             <div className={styles.col}>
                 <div className={cn("h2", styles.title)}>
-                    Your gateway to everything Onix.
+                    Your gateway to everything ATRIX.
                 </div>
                 <div className={styles.content}>
-                    Stay current on the latest Onix project developments, news,
+                    Stay current on the latest ATRIX project developments, news,
                     and content, updated daily.
                 </div>
                 <div className={styles.preview}>

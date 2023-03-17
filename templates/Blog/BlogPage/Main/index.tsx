@@ -19,10 +19,10 @@ const Main = ({}: MainProps) => (
             <div className={styles.wrap}>
                 <div className={styles.stage}>Feature post</div>
                 <div className={cn("h1", styles.title)}>
-                    Everything Onix weekly report
+                    Everything ATRIX weekly report
                 </div>
                 <div className={styles.content}>
-                    Onix delivers tamper-proof inputs, outputs, and computations
+                    ATRIX delivers tamper-proof inputs, outputs, and computations
                     to support advanced smart contracts on any blockchain
                 </div>
                 <Link href="/blog/article">

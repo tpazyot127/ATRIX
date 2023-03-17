@@ -23,7 +23,7 @@ const Testimonial = ({}: TestimonialProps) => (
             <div className={styles.comment}>
                 <div className={styles.details}>
                     <div className={cn("h2", styles.title)}>
-                        “Onix accelerated our development process tenfold all
+                        “ATRIX accelerated our development process tenfold all
                         while maintaining security and integrity from production
                         to post launch”
                     </div>

@@ -71,7 +71,7 @@ const Header = ({}: HeaderProps) => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <span>launch app</span>
+                    <span>White paper</span>
                 </a>
             </div>
         </header>

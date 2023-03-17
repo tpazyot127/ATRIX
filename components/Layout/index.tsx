@@ -23,7 +23,7 @@ const Layout = ({ layoutNoOverflow, children }: LayoutProps) => {
     return (
         <>
             <Head>
-                <title>Onix</title>
+                <title>ATRIX</title>
             </Head>
             <div
                 className={cn(styles.layout, {

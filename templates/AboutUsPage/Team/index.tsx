@@ -18,7 +18,7 @@ const Team = ({}: TeamProps) => {
             <div className={cn("container", styles.container)}>
                 <div className={styles.head}>
                     <div className={cn("h3", styles.subtitle)}>
-                        Meet the Onix team
+                        Meet the ATRIX team
                     </div>
                     <div className={cn("h2", styles.title)}>
                         Built by developers, for&nbsp;developers.

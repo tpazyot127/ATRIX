@@ -13,7 +13,7 @@ const ArticlePage = () => {
             <Content />
             <Posts
                 title="You may also like"
-                info="Stay current on the latest Onix project developments, news, and content, updated daily."
+                info="Stay current on the latest ATRIX project developments, news, and content, updated daily."
                 posts={posts}
                 background
             />

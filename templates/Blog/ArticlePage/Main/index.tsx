@@ -18,10 +18,10 @@ const Main = ({}: MainProps) => (
                     </div>
                 </div>
                 <h1 className={cn("h1", styles.title)}>
-                    Everything Onix weekly report
+                    Everything ATRIX weekly report
                 </h1>
                 <div className={cn("h4", styles.info)}>
-                    Onix delivers tamper-proof inputs, outputs, and computations
+                    ATRIX delivers tamper-proof inputs, outputs, and computations
                     to support advanced smart contracts on any blockchain
                 </div>
                 <div className={styles.avatar}>

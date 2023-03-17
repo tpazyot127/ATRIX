@@ -4,7 +4,7 @@ import styles from "./Footer.module.sass";
 import Logo from "@/components/Logo";
 import NavLink from "@/components/NavLink";
 import Socials from "@/components/Socials";
-
+import { APP_NAME } from "@/utils/commom";
 import { footerNavigation, documents } from "@/constants/navigation";
 import { socials } from "@/constants/socials";
 
@@ -42,7 +42,7 @@ const Footer = ({}: FooterProps) => (
             </div> */}
             <div className={styles.row}>
                 <div className={styles.copyright}>
-                    © 2022 Onix Systems. All rights reserved.
+                    © 2023 {APP_NAME}. All rights reserved.
                 </div>
                 <div className={styles.documents}>
                     {documents.map((document, index) => (
