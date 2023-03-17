@@ -11,6 +11,10 @@ export const socials = [
         icon: "twitter",
         href: "https://twitter.com/ui8",
     },
+    {
+        icon: "medium",
+        href: "https://twitter.com/ui8",
+    },
     // {
     //     icon: "instagram",
     //     href: "https://www.instagram.com/ui8net/",

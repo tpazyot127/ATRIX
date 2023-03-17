@@ -1,6 +1,6 @@
 export const solutions = [
     {
-        title: "PRODUCT_NAME",
+        title: "ATRIX",
         content:
             "EVM-compatible block sidechain, secured by a permissionless set of PoS validators.",
         icon: "/images/icon-1.svg",
@@ -8,7 +8,7 @@ export const solutions = [
         color: "#89EB5B",
     },
     {
-        title: "PRODUCT_NAME ZK EVM",
+        title: "ATRIX ZK EVM",
         content:
             "ATRIX zkEVM is the leading zero knowledge scaling solution that’s fully equivalent with the Ethereum Virtual Machine: all existing smart contracts, developer tools, and wallets work seamlessly..",
         icon: "/images/icon-2.svg",
