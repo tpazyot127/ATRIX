@@ -8,17 +8,17 @@ const community = [
     {
         value: "$110M",
         content:
-            "Stay current on the latest Onix project developments, news, and content, updated daily.",
+            "Stay current on the latest ATRIX project developments, news, and content, updated daily.",
     },
     {
         value: "90M+",
         content:
-            "Stay current on the latest Onix project developments, news, and content, updated daily. Stay current on the latest Onix project developments, news, and content, updated daily.",
+            "Stay current on the latest ATRIX project developments, news, and content, updated daily. Stay current on the latest ATRIX project developments, news, and content, updated daily.",
     },
     {
         value: "220K+",
         content:
-            "Stay current on the latest Onix project developments, news, and content, updated daily.",
+            "Stay current on the latest ATRIX project developments, news, and content, updated daily.",
     },
 ];
 
@@ -31,10 +31,10 @@ const Community = ({}: CommunityProps) => (
                 <div className={styles.row}>
                     <div className={styles.details}>
                         <div className={cn("h2", styles.title)}>
-                            Onix community
+                            ATRIX community
                         </div>
                         <div className={styles.info}>
-                            Stay current on the latest Onix project.
+                            Stay current on the latest ATRIX project.
                         </div>
                     </div>
                     <Socials

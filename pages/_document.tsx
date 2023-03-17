@@ -18,10 +18,10 @@ class MyDocument extends Document {
                 <Head>
                     <meta
                         content="Epic landing page UI Design Kit for Blockchain, Crypto"
-                        name="Onix Blockchain Landing Page UI Design Kit"
+                        name="ATRIX Blockchain Landing Page UI Design Kit"
                     />
                     <meta
-                        content="Onix Blockchain Landing Page UI Design Kit"
+                        content="ATRIX Blockchain Landing Page UI Design Kit"
                         property="og:title"
                     />
                     <meta
@@ -34,14 +34,14 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="og:url"
-                        content="https://ui8.net/ui8/products/onix-blockchain-landing-page-ui-design-kit"
+                        content="https://ui8.net/ui8/products/ATRIX-blockchain-landing-page-ui-design-kit"
                     />
                     <meta
                         property="og:site_name"
-                        content="Onix Blockchain Landing Page UI Design Kit"
+                        content="ATRIX Blockchain Landing Page UI Design Kit"
                     />
                     <meta
-                        content="Onix Blockchain Landing Page UI Design Kit"
+                        content="ATRIX Blockchain Landing Page UI Design Kit"
                         property="twitter:title"
                     />
                     <meta

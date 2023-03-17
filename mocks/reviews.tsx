@@ -11,7 +11,7 @@ export const reviews = [
         position: "Sr. Engineer - FauxChain",
         avatar: "/images/avatar-2.jpg",
         content:
-            "Onix accelerated our development process tenfold all while maintaining security and integrity from production to post launch",
+            "ATRIX accelerated our development process tenfold all while maintaining security and integrity from production to post launch",
         delay: 200,
     },
     {
@@ -19,7 +19,7 @@ export const reviews = [
         position: "Blockchain Analyst - Enzotech",
         avatar: "/images/avatar-3.jpg",
         content:
-            "If you’re not building on Onix you’re wasting time and vital resources that could be allocated to other parts of your project",
+            "If you’re not building on ATRIX you’re wasting time and vital resources that could be allocated to other parts of your project",
         delay: 400,
     },
 ];

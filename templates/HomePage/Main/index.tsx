@@ -23,6 +23,10 @@ const Main = ({ scrollToRef }: MainProps) => (
   <div className={cn("section", styles.section)}>
     <div className={cn("container", styles.container)}>
       <div className={styles.head}>
+        <div className={styles.stage}>INTRODUCING {APP_NAME}</div>
+        <div className={cn("h2", styles.title)}>
+          Community-owned API&nbsp;of blockchains.
+        </div>
         <div className={styles.infoHeader}>
           {APP_NAME} Using proof of stake algorithm and scaling solution ZKP
           (Zero Knowledge Proofs)
@@ -66,11 +70,7 @@ const Main = ({ scrollToRef }: MainProps) => (
         {description.map((item, index) => (
           <div className={styles.card} key={index}>
             <div className={styles.icon}>
-              <Image
-                src={item.icon}
-                width={50}
-                height={50}
-              />
+              <Image src={item.icon} width={50} height={50} />
             </div>
             <div className={cn("h5", styles.subtitle)}>{item.title}</div>
             <div className={styles.content}>{item.content}</div>

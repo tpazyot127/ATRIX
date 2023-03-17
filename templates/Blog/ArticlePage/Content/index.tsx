@@ -15,7 +15,7 @@ const Content = ({}: ContentProps) => (
                 squareCardClass={styles.square}
             >
                 <div className={styles.caption}>
-                    Everything Onix weekly report
+                    Everything ATRIX weekly report
                 </div>
                 <div className={styles.video}>
                     <video
@@ -34,12 +34,12 @@ const Content = ({}: ContentProps) => (
                     <h2>Scaling solutions, amplified.</h2>
                     <h3>Built by developers, for developers.</h3>
                     <p>
-                        Onix is committed to fostering the growth of Web3
+                        ATRIX is committed to fostering the growth of Web3
                         applications by providing the infrastructure and
                         security needed for Web3.
                     </p>
                     <p>
-                        Onix believes in Web3 for all. Onix is a decentralised
+                        ATRIX believes in Web3 for all. ATRIX is a decentralised
                         blockchain scaling platform that enables developers to
                         build scalable user-friendly dApps with low transaction
                         fees without ever sacrificing on security.
@@ -54,17 +54,17 @@ const Content = ({}: ContentProps) => (
                     </figure>
                 </section>
                 <section>
-                    <h2>Everything Onix weekly report</h2>
+                    <h2>Everything ATRIX weekly report</h2>
                     <h3>Built by developers, for developers.</h3>
                     <p>
-                        Onix is committed to fostering the growth of Web3
+                        ATRIX is committed to fostering the growth of Web3
                         applications by providing the infrastructure and
-                        security needed for Web3. “Onix accelerated our
+                        security needed for Web3. “ATRIX accelerated our
                         development process tenfold all while maintaining
                         security and integrity from production to post launch”
                     </p>
                     <p>
-                        Onix believes in Web3 for all. Onix is a decentralised
+                        ATRIX believes in Web3 for all. ATRIX is a decentralised
                         blockchain scaling platform that enables developers to
                         build scalable user-friendly dApps with low transaction
                         fees without ever sacrificing on security.
@@ -87,12 +87,12 @@ const Content = ({}: ContentProps) => (
                     <h2>Scaling solutions, amplified.</h2>
                     <h3>Built by developers, for developers.</h3>
                     <p>
-                        Onix is committed to fostering the growth of Web3
+                        ATRIX is committed to fostering the growth of Web3
                         applications by providing the infrastructure and
                         security needed for Web3.
                     </p>
                     <p>
-                        Onix believes in Web3 for all. Onix is a decentralised
+                        ATRIX believes in Web3 for all. ATRIX is a decentralised
                         blockchain scaling platform that enables developers to
                         build scalable user-friendly dApps with low transaction
                         fees without ever sacrificing on security.

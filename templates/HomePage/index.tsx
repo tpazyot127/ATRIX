@@ -24,8 +24,8 @@ const HomePage = () => {
             <Solutions />
             {/* <Posts
                 className="section"
-                title="Your gateway to everything Onix."
-                info="Stay current on the latest Onix project developments, news, and content, updated daily."
+                title="Your gateway to everything ATRIX."
+                info="Stay current on the latest ATRIX project developments, news, and content, updated daily."
                 posts={posts}
             /> */}
             {/* <Reviews reviews={reviews} /> */}

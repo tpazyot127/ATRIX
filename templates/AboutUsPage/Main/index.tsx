@@ -13,9 +13,9 @@ const Main = ({ scrollToRef }: MainProps) => (
         <div className={cn("container", styles.container)}>
             <div className={styles.wrap}>
                 <div className={styles.stage}>about us</div>
-                <div className={cn("h1", styles.title)}>Onix Fintech</div>
+                <div className={cn("h1", styles.title)}>ATRIX Fintech</div>
                 <div className={styles.info}>
-                    Onix delivers tamper-proof inputs, outputs, and computations
+                    ATRIX delivers tamper-proof inputs, outputs, and computations
                     to support advanced smart contracts on any blockchain
                 </div>
                 {/* <Scroll
