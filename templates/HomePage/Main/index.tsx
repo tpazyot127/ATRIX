@@ -59,7 +59,7 @@ const Main = ({ scrollToRef }: MainProps) => (
         </div>
 
         <div className={styles.info}>
-          {APP_NAME} aBFT consensus protocol delivers unparalleled speed,
+          {APP_NAME} delivers unparalleled speed,
           security, and reliability. Enjoy almost instant transactions and
           extremely low fees.
         </div>
