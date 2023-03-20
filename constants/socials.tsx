@@ -1,19 +1,19 @@
 export const socials = [
     {
         icon: "github",
-        href: "https://ui8.net/",
+        href: "https://github.com/atrixchain/atrix",
     },
     {
         icon: "discord",
-        href: "https://ui8.net/",
+        href: "https://discord.gg/KKXx8Td5",
     },
     {
         icon: "twitter",
-        href: "https://twitter.com/ui8",
+        href: "https://twitter.com/Atrixchain",
     },
     {
         icon: "medium",
-        href: "https://twitter.com/ui8",
+        href: "https://medium.com/@atrixchain",
     },
     // {
     //     icon: "instagram",
@@ -21,7 +21,7 @@ export const socials = [
     // },
     {
         icon: "telegram",
-        href: "https://ui8.net/",
+        href: "https://t.me/atrixchain",
     },
     // {
     //     icon: "facebook",
