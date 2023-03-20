@@ -8,14 +8,15 @@ import { APP_NAME } from "@/utils/commom";
 import { footerNavigation, documents } from "@/constants/navigation";
 import { socials } from "@/constants/socials";
 
-type FooterProps = {};
+type FooterProps = {
+  FooterApp: boolean;
+};
 
-const Footer = ({}: FooterProps) => (
-    <footer className={styles.footer}>
-        <div className={cn("container-wide", styles.container)}>
-            {/* <div className={styles.row}>
-                <Logo className={styles.logo} />
-                <div className={styles.menu}>
+const Footer = ({ FooterApp }: FooterProps) => (
+  <footer className={FooterApp ? styles.footerApp : styles.footer}>
+    <div className={cn("container-wide", styles.container)}>
+      {FooterApp && <Logo className={styles.logo} white />}
+      {/* <div className={styles.menu}>
                     {footerNavigation.map((link, index) =>
                         link.external ? (
                             <a
@@ -38,23 +39,31 @@ const Footer = ({}: FooterProps) => (
                             </NavLink>
                         )
                     )}
-                </div>
-            </div> */}
-            <div className={styles.row}>
-                <div className={styles.copyright}>
-                    © 2023 {APP_NAME}. All rights reserved.
-                </div>
-                <div className={styles.documents}>
-                    {documents.map((document, index) => (
-                        <Link href={document.url} key={index}>
-                            <a className={styles.document}>{document.title}</a>
-                        </Link>
-                    ))}
-                </div>
-                <Socials className={styles.socials} socials={socials} />
-            </div>
+                </div> */}
+      <div className={styles.row}>
+        <div className={FooterApp ? styles.copyrightApp : styles.copyright}>
+          {FooterApp
+            ? ` ${APP_NAME} © 2023 `
+            : `© 2023 ${APP_NAME}. All rights reserved.`}
         </div>
-    </footer>
+        {!FooterApp && (
+          <div className={styles.documents}>
+            {documents.map((document, index) => (
+              <Link href={document.url} key={index}>
+                <a className={styles.document}>{document.title}</a>
+              </Link>
+            ))}
+          </div>
+        )}
+
+        {FooterApp ? (
+          <Socials white className={styles.socialsApp} socials={socials} />
+        ) : (
+          <Socials className={styles.socials} socials={socials} />
+        )}
+      </div>
+    </div>
+  </footer>
 );
 
 export default Footer;

@@ -34,7 +34,7 @@ const Header = ({}: HeaderProps) => {
                 data-scroll-lock-scrollable
                 data-scroll-lock-fill-gap
             >
-                <Logo className={styles.logo} />
+                <Logo className={styles.logo} white={false} />
 
                 <div className={styles.menu}>
                     {headerNavigation.map((link, index) =>

@@ -6,13 +6,14 @@ import Image from "@/components/Image";
 type LogoProps = {
     className?: string;
     onClick?: () => void;
+    white: boolean;
 };
 
-const Logo = ({ className, onClick }: LogoProps) => (
+const Logo = ({ className, onClick, white }: LogoProps) => (
     <Link href="/">
         <a className={cn(styles.logo, className)} onClick={onClick}>
             <Image
-                src="/images/logo.svg"
+                src={white ? "/images/logo_white.svg" : "/images/logo.svg"}
                 width={120}
                 height={35}
                 alt="atrix"

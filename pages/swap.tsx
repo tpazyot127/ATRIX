@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
-import CareersPage from "@/templates/CareersPage";
+import SwapPage from "@/templates/Swap";
 
 const Home: NextPage = () => {
-    return <CareersPage />;
+    return <SwapPage />;
 };
 
 export default Home;

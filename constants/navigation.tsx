@@ -20,14 +20,14 @@ export const headerNavigation = [
     },
     {
         title: "Ecosystem",
-        url: "/ecosystem",
+        url: "/swap",
         external: true,
 
     },
 
     {
         title: "Developer",
-        url: "/ecoSystem",
+        url: "/swap",
         external: true,
 
     },

@@ -13,6 +13,7 @@ type SocialsProps = {
     socials: SocialsType[];
     dark?: boolean;
     large?: boolean;
+    white?:boolean;
 };
 
 const Socials = ({
@@ -21,11 +22,12 @@ const Socials = ({
     socials,
     dark,
     large,
+    white
 }: SocialsProps) => (
     <div
         className={cn(
             styles.socials,
-            { [styles.dark]: dark, [styles.large]: large },
+            { [styles.dark]: dark, [styles.large]: large, [styles.white] : white },
             className
         )}
     >
