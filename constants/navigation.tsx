@@ -1,41 +1,33 @@
 export const headerNavigation = [
     {
-        title: "Home",
-        url: "/",
-    },
-    // {
-    //     title: "About us",
-    //     url: "/about-us",
-    // },
-    {
         title: "Technology",
-        url: "/technology",
-        external: true,
+        url: "/",
+        external: false,
 
     },
     {
         title: "Community",
-        url: "https://ui8.net/",
-        external: true,
+        url: "/",
+        external: false,
     },
     {
         title: "Ecosystem",
-        url: "/ecosystem",
-        external: true,
+        url: "/",
+        external: false,
 
     },
 
     {
         title: "Developer",
-        url: "/ecoSystem",
-        external: true,
+        url: "/",
+        external: false,
 
     },
    
     {
         title: "Explorer",
-        url: "/explorer",
-        external: true,
+        url: "/",
+        external: false,
 
     },
 ];

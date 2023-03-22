@@ -3,34 +3,31 @@ import { useRouter } from "next/router";
 import cn from "classnames";
 
 type NavLinkProps = {
-    className?: string;
-    activeClassName?: any;
-    href: string;
-    children: React.ReactNode;
+  className?: string;
+  activeClassName?: any;
+  href: string;
+  children: React.ReactNode;
 };
 
 const NavLink = ({
-    className,
-    activeClassName,
-    href,
-    children,
+  className,
+  activeClassName,
+  href,
+  children,
 }: NavLinkProps) => {
-    const router = useRouter();
-
-    return (
-        <Link href={href}>
-            <div>
-
-            </div>
-            {/* <a
-                className={cn(className, {
-                    [activeClassName]: router.pathname === href,
-                })}
-            >
-                {children}
-            </a> */}
-        </Link>
-    );
+  const router = useRouter();
+  
+  return (
+    <Link href={href}>
+      <a
+        className={cn(className, {
+          [activeClassName]: href,
+        })}
+      >
+        {children}
+      </a>
+    </Link>
+  );
 };
 
 export default NavLink;

@@ -11,7 +11,7 @@ import { socials } from "@/constants/socials";
 type FooterProps = {};
 
 const Footer = ({}: FooterProps) => (
-    <footer className={styles.footer}>
+    <footer id="footer"className={styles.footer}>
         <div className={cn("container-wide", styles.container)}>
             {/* <div className={styles.row}>
                 <Logo className={styles.logo} />
