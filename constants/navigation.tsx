@@ -26,7 +26,7 @@ export const headerNavigation = [
    
     {
         title: "Explorer",
-        url: "/",
+        url: "https://explorer-testnet.atrixchain.com/",
         external: false,
 
     },
