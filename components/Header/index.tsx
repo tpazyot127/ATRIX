@@ -76,7 +76,7 @@ const Header = ({}: HeaderProps) => {
                 /> */}
         <a
           className={cn("button", styles.button)}
-          href="/"
+          href="https://drive.google.com/file/d/1Li6kvBaSMf5reU347nMENsclVFSMzREw/view"
           target="_blank"
           rel="noopener noreferrer"
         >
