@@ -11,21 +11,21 @@ export const reviews = [
   {
     avatar: "/images/coinbase-logo.png",
     content: "Coinbase",
-    delay: 100,
+    delay: 50,
   },
   {
     avatar: "/images/paypal-logo.png",
     content: "PayPal",
-    delay: 200,
+    delay: 50,
   },
   {
     avatar: "/images/jump-logo.jpg",
     content: "Jump Crypto",
-    delay: 300,
+    delay: 50,
   },
   {
     avatar: "/images/kucoin-logo.png",
     content: "KuCoin",
-    delay: 400,
+    delay: 50,
   },
 ];
