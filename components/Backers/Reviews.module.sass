@@ -1,7 +1,7 @@
 @import @/styles/helpers
 
 .section
-    padding: 120px 0
+    padding: 30px 0
     background: $n6
     +m
         padding: 80px 0
@@ -16,16 +16,24 @@
 
 .list
     display: flex
+    justify-content: center
     flex-wrap: wrap
-    margin: -68px -34px 0
+    margin: 0 -34px 0
     +m
         display: block
         margin: 0
+.title
+    margin-bottom: 16px
+    display: flex
+    justify-content: center
 
 .item
-    flex: 0 0 calc(33.333% - 68px)
-    width: calc(33.333% - 68px)
+    flex: 0 0 calc(25% - 68px)
+    width: calc(25% - 68px)
     margin: 68px 34px 0
+    display: flex
+    flex-direction: column
+    align-items: center
     +w
         flex: 0 0 calc(50% - 68px)
         width: calc(50% - 68px)
@@ -40,7 +48,7 @@
             display: none
 
 .content
-    margin-bottom: 24px
+    margin-bottom: 0px
     +quote
 
 .line
@@ -50,13 +58,9 @@
 .avatar
     position: relative
     flex-shrink: 0
-    width: 64px
-    height: 64px
-    margin-right: 16px
-    border-radius: 50%
-    overflow: hidden
-    img
-        border-radius: 50%
+    width: 170px
+    height: 150px
+    // margin-right: 16px
 
 .author
     margin-bottom: 4px

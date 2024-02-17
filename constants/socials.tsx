@@ -5,11 +5,13 @@ export const socials = [
     },
     {
         icon: "discord",
-        href: "https://discord.com/invite/8GMBRCCCmu",
+        // href: "https://discord.com/invite/8GMBRCCCmu",
+        href: "",
     },
     {
         icon: "twitter",
-        href: "https://twitter.com/Atrixchain",
+        // href: "https://twitter.com/Atrixchain",
+        href: "",
     },
     {
         icon: "medium",
@@ -21,7 +23,8 @@ export const socials = [
     // },
     {
         icon: "telegram",
-        href: "https://t.me/atrixchain",
+        // href: "https://t.me/atrixchain",
+        href: "",
     },
     // {
     //     icon: "facebook",
