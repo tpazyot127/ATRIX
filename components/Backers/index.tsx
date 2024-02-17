@@ -8,10 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 type BackersType = {
-  author: string;
-  position: string;
   avatar: string;
-  content: string;
   delay?: number;
 };
 
