@@ -7,7 +7,7 @@ import Community from "./Community";
 import AboutUs from "./AboutUs";
 import Posts from "./Posts";
 import Faq from "./Faq";
-import Reviews from "@/components/Reviews";
+// import Reviews from "@/components/Reviews";
 import JoinCommunity from "@/components/JoinCommunity";
 
 // import { reviews } from "@/mocks/reviews";

@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Layout from "@/components/Layout";
 import Main from "./Main";
 import Details from "./Details";
-import Reviews from "@/components/Reviews";
+// import Reviews from "@/components/Reviews";
 import JoinCommunity from "@/components/JoinCommunity";
 
 import { reviews } from "@/mocks/reviews";
@@ -14,7 +14,7 @@ const ContactPage = () => {
         <Layout>
             <Main scrollToRef={scrollToRef} />
             <Details scrollToRef={scrollToRef} />
-            <Reviews reviews={reviews} />
+            {/* <Reviews reviews={reviews} /> */}
             <JoinCommunity title="Want to get involved?" />
         </Layout>
     );
