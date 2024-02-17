@@ -1,27 +1,29 @@
 export const reviews = [
   {
-    author: "Markus Freeman",
-    position: "Dev Ops - Azious",
-    avatar: "/images/coinbase-logo.png",
-    content: "Coinbase",
+    avatar: "/images/cryptorank-logo.png",
+    content: "CoinDesk",
   },
   {
-    author: "Becky Stal",
-    position: "Sr. Engineer - FauxChain",
+    avatar: "/images/coindesk-logo.jpeg",
+    content: "CoinDesk",
+    delay: 50,
+  },
+  {
+    avatar: "/images/coinbase-logo.png",
+    content: "Coinbase",
+    delay: 100,
+  },
+  {
     avatar: "/images/paypal-logo.png",
     content: "PayPal",
     delay: 200,
   },
   {
-    author: "Ethan Jordan",
-    position: "Blockchain Analyst - Enzotech",
     avatar: "/images/jump-logo.jpg",
     content: "Jump Crypto",
-    delay: 400,
+    delay: 300,
   },
   {
-    author: "Ethan Jordan",
-    position: "Blockchain Analyst - Enzotech",
     avatar: "/images/kucoin-logo.png",
     content: "KuCoin",
     delay: 400,

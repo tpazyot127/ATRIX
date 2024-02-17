@@ -15,7 +15,8 @@ export const socials = [
     },
     {
         icon: "medium",
-        href: "https://medium.com/@atrixchain",
+        // href: "https://medium.com/@atrixchain",
+        href: "",
     },
     // {
     //     icon: "instagram",

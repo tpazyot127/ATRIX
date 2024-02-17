@@ -3,6 +3,9 @@ import { useMediaQuery } from "react-responsive";
 import cn from "classnames";
 import styles from "./Reviews.module.sass";
 import Image from "@/components/Image";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 type BackersType = {
   author: string;
@@ -15,7 +18,12 @@ type BackersType = {
 type ReviewsProps = {
   reviews: BackersType[];
 };
-
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 1000,
+  slidesToScroll: 1,
+};
 const Backers = ({ reviews }: ReviewsProps) => {
   const isMobile = useMediaQuery({
     query: "(max-width: 767px)",
@@ -27,7 +35,11 @@ const Backers = ({ reviews }: ReviewsProps) => {
         <div className={styles.wrap}>
           <div className={cn("h2", styles.title)}>Backers</div>
         </div>
-        <div className={styles.list}>
+        <Slider
+          {...settings}
+          slidesToShow={isMobile ? 1 : 4}
+          className={styles.list}
+        >
           {reviews.map((review, index) => (
             <AnimationOnScroll
               className={styles.item}
@@ -36,7 +48,6 @@ const Backers = ({ reviews }: ReviewsProps) => {
               key={index}
               animateOnce
             >
-              <div className={styles.content}>{review.content}</div>
               <div className={styles.line}>
                 <div className={styles.avatar}>
                   <Image
@@ -49,7 +60,7 @@ const Backers = ({ reviews }: ReviewsProps) => {
               </div>
             </AnimationOnScroll>
           ))}
-        </div>
+        </Slider>
       </div>
     </div>
   );
