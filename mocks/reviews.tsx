@@ -4,27 +4,21 @@ export const reviews = [
     content: "CoinDesk",
   },
   {
-    avatar: "/images/coindesk-logo.jpeg",
+    avatar: "/images/basic-capital.png",
     content: "CoinDesk",
-    delay: 50,
-  },
-  {
-    avatar: "/images/coinbase-logo.png",
-    content: "Coinbase",
-    delay: 50,
-  },
-  {
-    avatar: "/images/paypal-logo.png",
-    content: "PayPal",
-    delay: 50,
-  },
-  {
-    avatar: "/images/jump-logo.jpg",
-    content: "Jump Crypto",
-    delay: 50,
   },
   {
     avatar: "/images/kucoin-logo.png",
+    content: "KuCoin",
+    delay: 50,
+  },
+  {
+    avatar: "/images/gateio.png",
+    content: "KuCoin",
+    delay: 50,
+  },
+  {
+    avatar: "/images/mexc-logo.jpeg",
     content: "KuCoin",
     delay: 50,
   },
