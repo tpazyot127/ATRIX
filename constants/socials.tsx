@@ -5,18 +5,15 @@ export const socials = [
     },
     {
         icon: "discord",
-        // href: "https://discord.com/invite/8GMBRCCCmu",
-        href: "",
+        href: "https://discord.com/invite/8GMBRCCCmu",
     },
     {
         icon: "twitter",
-        // href: "https://twitter.com/Atrixchain",
-        href: "",
+        href: "https://twitter.com/Atrixchain",
     },
     {
         icon: "medium",
-        // href: "https://medium.com/@atrixchain",
-        href: "",
+        href: "https://medium.com/@atrixchain",
     },
     // {
     //     icon: "instagram",
@@ -24,8 +21,7 @@ export const socials = [
     // },
     {
         icon: "telegram",
-        // href: "https://t.me/atrixchain",
-        href: "",
+        href: "https://t.me/atrixchain",
     },
     // {
     //     icon: "facebook",
